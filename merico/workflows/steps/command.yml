@@ -1,0 +1,8 @@
+description: Run multiple commands in sequence
+steps:
+  - run: echo "Let's start!"
+  - run: date +"%Y-%m-%d %H:%M:%S"
+  - run: $devchat_python $command_path/main_1.py
+  - run: $devchat_python $command_path/main_2.py
+  - run: date +"%Y-%m-%d %H:%M:%S"
+  - run: echo "All done!"
