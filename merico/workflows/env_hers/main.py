@@ -1,7 +1,8 @@
 import sys
 
-def main() -> str:
-    print(f"\n\n## Hi from the MERICO workflow!\n\n", flush=True)
+
+def main():
+    print(f"\n\n## Hello from env_hers!\n\n", flush=True)
 
     print(f"\n\npython version: {sys.version}\n\n")
     for p in sys.path:
@@ -20,7 +21,6 @@ def main() -> str:
         print(f"\n\n- numpy version: {numpy.__version__}")
     except ImportError:
         print("\n\n- numpy not found")
-
 
 if __name__ == "__main__":
     main()
