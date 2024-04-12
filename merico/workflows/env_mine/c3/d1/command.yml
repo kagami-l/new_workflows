@@ -1,0 +1,3 @@
+description: d1 of c3 of env_mine
+steps:
+  - run: $workflow_python $command_path/main_d1.py

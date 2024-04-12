@@ -1,0 +1,3 @@
+description: c1 of env_mine
+steps:
+  - run: $devchat_python $command_path/main_c1.py
