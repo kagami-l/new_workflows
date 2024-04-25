@@ -1,5 +1,5 @@
 import sys
-from merico.chatmark import Button
+from lib.chatmark import Button
 
 def main(sentence: str) -> str:
     print(f"\n\nDo nothing to the sentence: \n\n{sentence}\n\n")

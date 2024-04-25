@@ -1,5 +1,5 @@
 import sys
-from merico.util.openai import create_chat_completion_chunks
+from lib.util.openai import create_chat_completion_chunks
 
 
 def main(sentence: str) -> str:
