@@ -3,5 +3,5 @@ __pycache__/
 .DS_Store
 tmp/
 
-# custom files
-custom/
+custom/*
+!custom/config.yml.example
